@@ -1,0 +1,437 @@
+body{
+	font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
+	font-size: 16px;
+	height: 1200px;
+
+}
+
+/*Global*/
+.navbar-inverse {
+    background-color: rgba(52,73,94,0.8);
+    border-color: rgba(52,73,94,0.6);
+}
+h1,h2,h3,h4,h5,h6{
+ -webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	font-weight: bold;
+}
+h1{
+	font-size: 3em;
+	text-align: center;
+	padding-bottom: 70px;
+}
+
+h1,h2{
+	margin: 0 0 40px;
+}
+
+h3{
+	margin: 20px 0;
+}
+h4{
+	font-size: 18px;
+}
+
+
+.btn-danger{
+	background-color: #dd5638;
+	border-collapse: #d95131;
+}
+
+button, input, .btn, a.btn{
+	 -webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	
+}
+.btn{
+	font-weight: bold;
+}
+button.btn:focus{
+	outline: none!important;
+}
+.btn-success{
+	background: #79b044;
+	border: none;
+}
+
+.btn-success:hover{
+	background: #6a9b3d;
+	border-color: #6a9b3d;
+}
+img{
+	max-width: 100%;
+}
+p{
+	margin: 0 0 15px;
+}
+p.lead{
+	font-weight: normal;
+}
+footer{
+	text-align: center;
+}
+footer ul li{
+	display: inline-block;
+}
+
+/*social media, select combine class*/
+.badge.social{
+	background: #ccc;
+	font-size: 24px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 42px;
+	margin: 0 5px 20px 0;
+	padding: 0;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	color: white;
+	
+}
+
+.badge.social.twitter:hover{
+	background: #55acee;
+	}
+
+.badge.social.facebook:hover{
+	background: #3b5998;
+}
+.badge.social.gplus:hover{
+	background: #db4b39;
+}
+
+header nav ul li a,
+header .navbar-brand
+{
+	color: #fff!important;
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+
+}
+
+header nav ul li a:hover,
+header .navbar-brand:hover
+{
+	color: #e74c3c!important;
+
+}
+
+/*hero*/
+
+#cover1{
+	padding-top: 60px;
+}
+
+#hero h1{
+	color: #e64b3b;
+}
+#hero h1 strong{
+	color: rgb(63,156,250);
+}
+#hero{
+
+	background: url("image/hero4.jpg") center center repeat fixed;
+	background-size: cover;
+  	box-shadow: inset 0 0 100px #000;
+	min-height: 580px;
+	padding: 40px 0;
+	color: black;
+	 -webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+#hero article{
+	width: 100%;
+	text-align: center;
+	
+}
+.navbar{
+	margin-bottom: 0;/*fixed the gap betweeen navbar and hero section*/
+}
+
+#hero .hero-text{
+	margin-top: 30px;
+}
+#price-timeline{
+	margin: 30px 0 60px; 
+	text-align: center;
+}
+
+#price-timeline .price{
+	display: inline-block;
+	width: 30%;
+	margin: 0 2% 0 0;
+	background: #dd5638;
+	color: white;
+	padding: 10px 20px 30px;
+	position: relative;
+	vertical-align: top;
+}
+
+#price-timeline .price span{
+	
+	background: #3e4249;
+	display: block;
+	height: 70px;
+	width: 70px;
+	text-align: center;
+	line-height: 70px;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	position: absolute;
+	bottom: -35px;
+	left: 50%;
+	margin-left: -35px;
+	
+}
+
+#price-timeline h4{
+	margin: 0 0 10px;
+}
+  
+#price-timeline small {
+	color: aqua;
+	font-weight: bold;
+	display: block;
+}
+
+/*Lay out*/
+section{
+	padding: 80px 0;
+}
+
+.section-header{
+	text-align: center;
+}
+section h2{
+	margin: 20px 0 40px;
+}
+
+section h3{
+	margin: 30px 0 10px;
+}
+#optin{
+	background: #101010;
+	padding: 20px 0;
+	color: white;
+	 -webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	font-size: 1.2em;
+}
+	
+#optin p{
+	margin: 7px 0 0 0;
+} 
+
+#about-us{
+	background: white;
+}
+
+#course-features{
+	background:#3e4249;
+	color: white;
+	text-align: center;
+}
+
+#why-choose{
+	background: url('image/why-us.jpg') center center repeat fixed;
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
+
+#instructor{
+	background: white url("image/instructor.png") 10% -10px no-repeat;	
+}
+
+#instructor h2{
+	margin: 0 0 20px;
+}
+
+#instructor .num{
+	display: table;
+	font-size:30px;
+	font-weight: bold;
+	color:white;
+	line-height: 24px;
+	height: 140px;
+	width: 140px;
+	text-align: center;
+	background: #dd5638;
+	-webkit-border-radius:100%;
+	-moz-border-radius:100%;
+	border-radius:100%;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+#instructor .num .num-content{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#instructor .num span{
+	display: block;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+#contact{
+	text-align: center;
+	background: url('image/reading-book.jpg') center center repeat fixed;
+	background-size: cover;
+	color: white;
+	padding: 140px 0;
+}
+
+/*icon*/
+.fa-list-alt,
+.fa-flask,
+.fa-graduation-cap{
+	
+	font-size: 70px;
+}
+
+/* footer */
+
+footer
+{
+	padding-top: 56px;
+}
+
+footer h2
+{
+	padding-bottom: 28px;
+}
+
+footer p i
+{
+	color: #2d82d8;
+}
+
+footer p span
+{
+	padding-left: 15px;
+	font-weight: bold;
+}
+
+
+
+.footer-social-links li
+{
+	padding: 0 10px;
+	font-size: 28px;
+}
+
+.footer-social-links li a i.fa-facebook
+{
+	color: #3b5998;
+}
+
+.footer-social-links li a i.fa-twitter
+{
+	color: #00aced;
+}
+
+.footer-social-links li a i.fa-youtube
+{
+	color:  #bb0000;
+}
+
+.footer-social-links li a i.fa-linkedin
+{
+	color: #007bb5;
+}
+
+.footer-social-links li a i.fa-dribbble
+{
+	color: #ea4c89;
+}
+
+.copyright
+{
+	text-align: center;
+	color: #fff;
+	background-color: #333;
+	height: 42px;
+	line-height: 42px;
+	margin-top: 56px;
+}
+
+footer p span.primary
+{
+	padding-left: 0px;
+}
+
+.copyright p
+{
+	margin: 0 0 0 0;
+}
+
+/*media Queries*/
+
+@media screen and (max-width:991px){
+	.logo{
+		width: 80%;
+	}
+	#instructor .container{
+		background:  rgba(255,255,255,0.8);
+		padding: 20px;
+	}
+}
+
+
+@media screen and (max-width:768px){
+	.logo{
+		width: 70%;
+	}
+	#optin p{
+		margin: 0 0 10px;
+	}
+}
+
+@media screen and (max-width:667px){
+	.logo{
+		width: 40%;
+	}
+	#cover1{
+	padding-top: 10px;
+	}
+	.hero-text h1{
+		font-size: 30px;
+		padding-bottom: 5px;
+	}
+}
+
+
+@media screen and (max-width:568px){
+	.hero-text h1{
+		font-size: 30px;
+	}
+	
+	.logo{
+		width: 60%;
+	}
+	
+	#instructor .num{
+		height: 100px;
+		width: 100px;
+		font-size: 22px;
+	}
+	#instructor .num span{
+		font-size: 16px;
+			
+	}
+	#price-timeline h4{
+		font-size: 14px;
+	}
+
+
+}
